@@ -161,3 +161,6 @@ The API is mounted under `http://localhost:5000/api`.
 * **Authorization (RBAC):** Implementing `middleware/auth.js` for JWT verification and `middleware/admin.js` for role checking (`req.user.role`).
 * **Protected Routes:** Using the `<ProtectedRoute>` component on the frontend to restrict page access based on JWT presence.
 * **Database Queries:** Using conditional logic in `taskController.js` to filter tasks based on the user's role (Admin sees all, User sees only `createdBy` ID).
+
+
+**Project Live Link**: [https://task-management-app-omega-olive.vercel.app/login]
